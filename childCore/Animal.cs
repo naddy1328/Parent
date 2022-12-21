@@ -8,6 +8,6 @@ namespace childCore
 {
     public class Animal
     {
-        public static void Do() => Console.WriteLine("Nallo World");
+        public static void Do() => Console.WriteLine("Nello World");
     }
 }
