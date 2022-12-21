@@ -29,6 +29,7 @@ namespace parentCore
         private void OnInitLoaded(object sender, RoutedEventArgs e_)
         {
             this.tDebug.Click += (s, e) => childCore.Animal.Do();
+            this.tDebug.Click += (s, e) => childCore.Animal.Do();
             this.Loaded -= OnInitLoaded;
         }
     }
