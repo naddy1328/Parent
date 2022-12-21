@@ -30,6 +30,7 @@ namespace parentCore
         {
             this.tDebug.Click += (s, e) => childCore.Animal.Do();
             this.tDebug.Click += (s, e) => childCore.Animal.Do();
+            this.tDebug.Click += (s, e) => childCore.Animal.Do();
             this.Loaded -= OnInitLoaded;
         }
     }
