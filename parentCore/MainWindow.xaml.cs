@@ -28,7 +28,7 @@ namespace parentCore
 
         private void OnInitLoaded(object sender, RoutedEventArgs e_)
         {
-            this.tDebug.Click += (s, e) => Console.WriteLine("Nallo World");
+            this.tDebug.Click += (s, e) => childCore.Animal.Do();
             this.Loaded -= OnInitLoaded;
         }
     }
